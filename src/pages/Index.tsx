@@ -54,13 +54,13 @@ const Index = () => {
               <div className="w-full h-96 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-2xl border border-orange-500/30 flex items-center justify-center">
                 <div className="text-center">
                   <img
-                    src={`${import.meta.env.BASE_URL}pavelp-moto.jpg`}
-                    alt="Павел П. на мотоцикле"
+                    src={`${import.meta.env.BASE_URL}pavelp-work.jpg`}
+                    alt="Павел П. в деловом стиле"
                     className="h-80 w-auto mx-auto rounded-xl shadow-lg object-cover border-4 border-orange-500/40"
                     style={{ maxHeight: '20rem' }}
                   />
-                  <p className="mt-4 text-gray-200 text-lg font-semibold">Место для фото Павла П.</p>
-                  <p className="text-sm text-gray-400">(на мотоцикле)</p>
+                  <p className="mt-4 text-gray-200 text-lg font-semibold">Место для личного фото</p>
+                  <p className="text-sm text-gray-400">(Павел в деловом стиле)</p>
                 </div>
               </div>
             </div>
@@ -86,13 +86,13 @@ const Index = () => {
               <div className="w-full h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl border border-gray-700 flex items-center justify-center">
                 <div className="text-center">
                   <img
-                    src={`${import.meta.env.BASE_URL}pavelp-work.jpg`}
-                    alt="Павел П. в деловом стиле"
+                    src={`${import.meta.env.BASE_URL}pavelp-moto.jpg`}
+                    alt="Павел П. на мотоцикле"
                     className="h-80 w-auto mx-auto rounded-xl shadow-lg object-cover border-4 border-orange-500/40"
                     style={{ maxHeight: '20rem' }}
                   />
-                  <p className="mt-4 text-gray-200 text-lg font-semibold">Место для личного фото</p>
-                  <p className="text-sm text-gray-400">(Павел в деловом стиле)</p>
+                  <p className="mt-4 text-gray-200 text-lg font-semibold">Место для фото Павла П.</p>
+                  <p className="text-sm text-gray-400">(на мотоцикле)</p>
                 </div>
               </div>
             </div>
