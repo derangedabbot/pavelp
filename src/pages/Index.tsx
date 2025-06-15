@@ -14,10 +14,10 @@ const Index = () => {
               <span className="text-2xl font-bold text-white">Павел П.</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#about" className="text-gray-300 hover:text-orange-500 transition-colors">О себе</a>
-              <a href="#services" className="text-gray-300 hover:text-orange-500 transition-colors">Услуги</a>
-              <a href="#results" className="text-gray-300 hover:text-orange-500 transition-colors">Результаты</a>
-              <a href="#contact" className="text-gray-300 hover:text-orange-500 transition-colors">Контакты</a>
+              <button onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-orange-500 transition-colors">О себе</button>
+              <button onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-orange-500 transition-colors">Услуги</button>
+              <button onClick={() => document.getElementById('results')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-orange-500 transition-colors">Результаты</button>
+              <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-300 hover:text-orange-500 transition-colors">Контакты</button>
             </div>
           </div>
         </div>
