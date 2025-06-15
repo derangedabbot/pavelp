@@ -41,9 +41,15 @@ const Index = () => {
                 Как байкер покоряет дороги, так и ты покоришь свои цели.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white">
-                  Начать трансформацию
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white"
+                >
+                  <a href="https://t.me/pospelop" target="_blank" rel="noopener noreferrer">
+                    Начать трансформацию
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
                 </Button>
                 <Button variant="outline" size="lg" className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">
                   Посмотреть результаты
@@ -246,9 +252,15 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button size="lg" className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white">
-              Записаться на консультацию
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button
+              asChild
+              size="lg"
+              className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white"
+            >
+              <a href="https://t.me/pospelop" target="_blank" rel="noopener noreferrer">
+                Записаться на консультацию
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white">
               Скачать бесплатную книгу
@@ -256,7 +268,7 @@ const Index = () => {
           </div>
           
           <p className="text-gray-400">
-            Telegram: @PavelP_Coach | Email: pavel@success-route.com
+            Telegram: @pospelop | Email: pavel@success-route.com
           </p>
         </div>
       </section>
@@ -269,7 +281,7 @@ const Index = () => {
             <span className="text-white font-bold">Павел П. - Твой проводник к успеху</span>
           </div>
           <p className="text-gray-400 text-sm">
-            © 2024 Все права защищены. Жизнь - это дорога, выбирай свой маршрут мудро.
+            © 2025 Все права защищены. Жизнь - это дорога, выбирай свой маршрут мудро.
           </p>
         </div>
       </footer>
