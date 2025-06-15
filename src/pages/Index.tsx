@@ -81,7 +81,7 @@ const Index = () => {
             <div className="relative">
               <div className="w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl border border-gray-700 flex items-center justify-center p-4">
                 <img
-                  src={`${import.meta.env.BASE_URL}pavelp-moto.jpg`}
+                  src={`${import.meta.env.BASE_URL}pavelp-moto.png`}
                   alt="Павел П. на мотоцикле"
                   className="max-h-80 w-auto mx-auto rounded-xl shadow-lg object-cover border-4 border-orange-500/40"
                   style={{ maxHeight: '20rem' }}
