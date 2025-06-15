@@ -50,15 +50,13 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="relative">
-              <div className="w-full bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-2xl border border-orange-500/30 flex items-center justify-center p-4">
-                <img
-                  src={`${import.meta.env.BASE_URL}pavelp-work.jpg`}
-                  alt="Павел П. в деловом стиле"
-                  className="max-h-80 w-auto mx-auto rounded-xl shadow-lg object-cover border-4 border-orange-500/40"
-                  style={{ maxHeight: '20rem' }}
-                />
-              </div>
+            <div className="relative flex justify-center items-center">
+              <img
+                src={`${import.meta.env.BASE_URL}pavelp-work.jpg`}
+                alt="Павел П. в деловом стиле"
+                className="max-h-80 w-auto rounded-xl object-cover border-4 border-orange-500/60 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-orange-400/90 hover:ring-4 hover:ring-orange-400/30"
+                style={{ maxHeight: '20rem' }}
+              />
             </div>
           </div>
         </div>
@@ -78,15 +76,13 @@ const Index = () => {
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <div className="w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl border border-gray-700 flex items-center justify-center p-4">
-                <img
-                  src={`${import.meta.env.BASE_URL}pavelp-moto.png`}
-                  alt="Павел П. на мотоцикле"
-                  className="max-h-80 w-auto mx-auto rounded-xl shadow-lg object-cover border-4 border-orange-500/40"
-                  style={{ maxHeight: '20rem' }}
-                />
-              </div>
+            <div className="relative flex justify-center items-center">
+              <img
+                src={`${import.meta.env.BASE_URL}pavelp-moto.png`}
+                alt="Павел П. на мотоцикле"
+                className="max-h-80 w-auto rounded-xl object-cover border-4 border-orange-500/60 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-orange-400/90 hover:ring-4 hover:ring-orange-400/30"
+                style={{ maxHeight: '20rem' }}
+              />
             </div>
             <div className="space-y-6">
               <div className="space-y-4">
