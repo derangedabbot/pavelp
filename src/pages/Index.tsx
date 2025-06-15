@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Bike, Target, Trophy, Users, Star, ArrowRight } from "lucide-react";
@@ -53,10 +52,15 @@ const Index = () => {
             </div>
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-2xl border border-orange-500/30 flex items-center justify-center">
-                <div className="text-center text-gray-400">
-                  <Bike className="h-16 w-16 mx-auto mb-4 text-orange-500" />
-                  <p>Место для фото Павла П.</p>
-                  <p className="text-sm">(на мотоцикле)</p>
+                <div className="text-center">
+                  <img
+                    src="/pavelp-moto.jpg"
+                    alt="Павел П. на мотоцикле"
+                    className="h-80 w-auto mx-auto rounded-xl shadow-lg object-cover border-4 border-orange-500/40"
+                    style={{ maxHeight: '20rem' }}
+                  />
+                  <p className="mt-4 text-gray-200 text-lg font-semibold">Место для фото Павла П.</p>
+                  <p className="text-sm text-gray-400">(на мотоцикле)</p>
                 </div>
               </div>
             </div>
